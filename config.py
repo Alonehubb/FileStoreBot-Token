@@ -35,7 +35,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkpays.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "e27949c396504dca50e6caed52b70917f00593c9")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","hhsoccso8853")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/hhsoccso8853")
 
 
 #force sub channel id, if you want enable force sub
