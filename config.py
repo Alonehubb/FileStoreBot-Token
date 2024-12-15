@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7885183451:AAFxv5po6Y5DhKsyU5yHd2Txj5qOH-zfgUY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20901045"))
@@ -28,18 +28,18 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6324457826"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://POPBETA:POPBETA@cluster0.vhljb.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = ""
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkpays.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "e27949c396504dca50e6caed52b70917f00593c9")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "b62c13862daac9f56fb2c02c6c45b9c6144cd41d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/hhsoccso8853")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/How_too_penlink/29")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002199891363"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002355564658"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
